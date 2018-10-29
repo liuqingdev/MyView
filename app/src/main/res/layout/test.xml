@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.lq.testlayoutinflate.TtileView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.lq.testlayoutinflate.TtileView>
+    <!--<com.lq.testlayoutinflate.CounterView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_centerInParent="true"/>-->
+    <com.lq.testlayoutinflate.MyListView
+        android:id="@+id/my_list_view"
+        android:layout_below="@id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.lq.testlayoutinflate.MyListView>
+
+</RelativeLayout>
